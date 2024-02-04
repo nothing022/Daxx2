@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "GracyMusicBot")
 BOT_NAME = getenv("BOT_NAME" , "Nexiko")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
-EVALOP = list(map(int, getenv("EVALOP", "1808943146 5360305806 6664582540 6050277919").split()))
+EVALOP = list(map(int, getenv("EVALOP", "5462526488").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -50,7 +50,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Rajput0906")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Rajput0906")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
